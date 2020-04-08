@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../assets/images/photo.png";
+import Profile from "../assets/photo.png";
 
 function ContactCard(props) {
     return (
