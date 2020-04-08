@@ -33,18 +33,5 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
-    },
-    "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-    "main": "./src/index.js",
-    "devDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/wilpar4813/ReactPortfolio.git"
-    },
-    "author": "Tripp Parham",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/wilpar4813/ReactPortfolio/issues"
-    },
-    "homepage": "https://github.com/wilpar4813/ReactPortfolio#readme"
+    }
 }
