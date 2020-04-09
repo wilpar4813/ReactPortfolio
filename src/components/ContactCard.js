@@ -35,10 +35,10 @@ function ContactCard(props) {
                         <img
                             src={Profile}
                             alt="profile"
-                            className="profile float-left"
+                            className="contactprofile float-left"
                         ></img>
-                        <p className="thankyou float-right">
-                            Thank you for visiting my site.{" "}
+                        <p className="thankyoutext float-right">
+                            <h2>Thank you for visiting my site</h2>
                         </p>
                     </div>
                 </div>

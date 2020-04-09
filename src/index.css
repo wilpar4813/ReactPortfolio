@@ -9,11 +9,10 @@ img {
     width: 280px;
 }
 
-.projectCard {
-    max-width: 100%;
-    height: auto;
+.aboutText {
+    padding: 20px;
+    font-size: 20px;
 }
-
 .header {
     position: relative;
     /* background-image: url("../src/assets/images/background.png"); */
@@ -32,7 +31,7 @@ hr {
 .card {
     background: #fff;
     border-radius: 2px;
-    height: 325px;
+
     margin: 2rem;
     position: relative;
     width: 325px;
@@ -70,6 +69,7 @@ hr {
     display: inline-flex !important;
     margin-top: 20px;
     margin-bottom: 20px;
+    max-width: 100%;
 
     height: 200px;
     width: 280px;
@@ -89,6 +89,7 @@ hr {
     right: 0;
     width: 100%;
     background-color: #555821 !important;
+    border-color: #815435;
     color: #ffffff;
     padding: 10px;
     height: 40px;
@@ -123,7 +124,7 @@ body {
 .navbar-brand {
     margin-left: 2%;
     color: white;
-    font-size: 36px !important;
+    font-size: 45px !important;
     font-weight: bolder;
 }
 .nav-item {
@@ -155,7 +156,14 @@ body {
 
 .profile {
     width: 300px;
-    height: auto;
+    height: 100%;
+    margin: 0 10px 0 0;
+    padding: 15px;
+}
+.contactprofile {
+    width: 300px;
+    height: 100%;
+    margin: 0 10px 20px 0;
     padding: 15px;
 }
 
@@ -214,8 +222,13 @@ body {
 
 .card-content {
     text-align: center;
+    height: 100%;
 }
 
 .thankyou {
     display: flex;
+}
+.thankyoutext {
+    display: flex;
+    margin-top: 50px;
 }

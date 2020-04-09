@@ -4,7 +4,7 @@ import Profile from "../assets/tripp.jpeg";
 function AboutCard() {
     return (
         <div className="about-container">
-            <h2>About Me</h2>
+            <h1 className="title">About Me</h1>
             <hr />
 
             <img
@@ -13,13 +13,13 @@ function AboutCard() {
                 className="profile float-left"
             ></img>
             <div>
-                <div className="mt-3">
+                <div className="mt-3 aboutText">
                     <p>
-                        My name is Tripp Parham. I am from Raleigh, North
-                        Carolina. I have recently certified in Full-Stack web
-                        development at the University of North Carolina at
-                        Chapel Hill. I am currently seeking to launch a bright
-                        career as a Full Stack Web Developer.
+                        First, thank you for visiting my webpage. I am from
+                        Raleigh, North Carolina. I have recently certified in
+                        Full-Stack web development at the University of North
+                        Carolina in Chapel Hill. I am currently seeking to
+                        launch a bright career as a Full Stack Web Developer.
                     </p>
                     <p>
                         Prior to learning to code, I hold a Bachelors of Science
@@ -38,23 +38,7 @@ function AboutCard() {
                         can be reached through this portfolio,
                     </p>
                 </div>
-
-                <div className="card-body contactLinks">
-                    <a
-                        href="https://www.linkedin.com/in/trippparham"
-                        className="card-link"
-                    >
-                        LinkedIn
-                    </a>
-                    <a
-                        href="https://github.com/wilpar4813"
-                        className="card-link"
-                    >
-                        GitHub
-                    </a>
-                </div>
             </div>
-            {/* end copy paste  */}
         </div>
     );
 }

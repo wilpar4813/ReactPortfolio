@@ -26,50 +26,43 @@
         "image": "/images/weatherDashboard.png",
         "project": "Track the Weather",
         "location": "https://wilpar4813.github.io/weatherDashboard/"
-    },
-    {
+    }, {
         "id": 5,
         "name": "Music Plus",
         "image": "/images/musicPlus.png",
         "project": "A Weather Tracking App",
         "location": "https://wilpar4813.github.io/musicPlus/"
-    },
-    {
+    }, {
         "id": 6,
         "name": "Profile Generator",
         "image": "/images/profileGenerator.png",
         "project": "Generate a Github Profile",
         "location": "https://github.com/wilpar4813/GitHubProfileGenerator"
-    },
-    {
+    }, {
         "id": 7,
         "name": "Employee Summary",
         "image": "/images/employeeSummary.png",
         "project": "Generate Summary of EMployees Data to HTML File",
         "location": "https://github.com/wilpar4813/employeeSummary"
-    },
-    {
+    }, {
         "id": 8,
         "name": "Note Taker",
         "image": "/images/noteTaker.png",
         "project": "A Note Taking App",
         "location": "https://tripps-note-taker.herokuapp.com/"
-    },
-    {
+    }, {
         "id": 9,
         "name": "Employee Tracker",
         "image": "/images/employeeTracker.png",
         "project": "Keep track of Employee's Employment Status",
         "location": "https://github.com/wilpar4813/employeeTracker"
-    },
-    {
+    }, {
         "id": 10,
         "name": "Burger Muncher",
         "image": "/images/burgerMuncher.png",
         "project": "Devour A Virtual Burger Guilt Free",
         "location": "https://burgersdelight.herokuapp.com"
-    },
-    {
+    }, {
         "id": 11,
         "name": "Job Book",
         "image": "/images/jobBook.png",
