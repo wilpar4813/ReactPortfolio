@@ -6,12 +6,12 @@ import "../index.css";
 function Navbar() {
     return (
         <div className="navcontainer">
-            <nav className="navbar navbar-expand-md header">
+            <nav className="navbar navbar-expand-lg header">
                 <Link className="navbar-brand" to="/">
                     Tripp Parham
                 </Link>
                 <button
-                    className="navbar-toggler toggler-example"
+                    className="navbar-toggler"
                     type="button"
                     data-toggle="collapse"
                     data-target=".navbarText"
@@ -19,68 +19,66 @@ function Navbar() {
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <span className="dark-blue-text testone">
-                        <i className="fas fa-bars fa-1x testtwo"></i>
+                    <span className="dark-blue-text">
+                        <i className="fas fa-bars fa-1x"></i>
                     </span>
                 </button>
-                <div className="navigation-bar">
-                    <div className="collapse navbar-collapse navbarText">
-                        <ul className="navbar-nav ml-auto">
-                            <li className="nav-item">
-                                <Link
-                                    to="/"
-                                    className={
-                                        window.location.pathname === "/" ||
-                                        window.location.pathname === "/about"
-                                            ? "nav-link active"
-                                            : "nav-link"
-                                    }
-                                >
-                                    About
-                                </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link
-                                    to="/portfolio"
-                                    className={
-                                        window.location.pathname ===
-                                        "/portfolio"
-                                            ? "nav-link active"
-                                            : "nav-link"
-                                    }
-                                >
-                                    Portfolio
-                                </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link
-                                    to="/resume"
-                                    className={
-                                        window.location.pathname === "/resume"
-                                            ? "nav-link active"
-                                            : "nav-link"
-                                    }
-                                >
-                                    Resume
-                                </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link
-                                    to="/contact"
-                                    className={
-                                        window.location.pathname === "/contact"
-                                            ? "nav-link active"
-                                            : "nav-link"
-                                    }
-                                >
-                                    Contact
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
+
+                <div className="navbar-collapse collapse navbarText">
+                    <ul className="navbar-nav ml-auto">
+                        <li className="nav-item">
+                            <Link
+                                to="/"
+                                className={
+                                    window.location.pathname === "/" ||
+                                    window.location.pathname === "/about"
+                                        ? "nav-link active"
+                                        : "nav-link"
+                                }
+                            >
+                                About
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link
+                                to="/portfolio"
+                                className={
+                                    window.location.pathname === "/portfolio"
+                                        ? "nav-link active"
+                                        : "nav-link"
+                                }
+                            >
+                                Portfolio
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link
+                                to="/resume"
+                                className={
+                                    window.location.pathname === "/resume"
+                                        ? "nav-link active"
+                                        : "nav-link"
+                                }
+                            >
+                                Resume
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link
+                                to="/contact"
+                                className={
+                                    window.location.pathname === "/contact"
+                                        ? "nav-link active"
+                                        : "nav-link"
+                                }
+                            >
+                                Contact
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
             </nav>
-        </div>
+        </div> //End navcontainer
     );
 }
 

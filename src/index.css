@@ -15,6 +15,7 @@ img {
 }
 .header {
     position: relative;
+    display: flex;
     /* background-image: url("../src/assets/images/background.png"); */
     background-color: #815435;
     border-bottom: 3px solid #55561c;
@@ -47,7 +48,14 @@ hr {
 
     /* padding-top: 10px; */
 }
-.card > .img-container > img {
+
+.card-content > ul {
+    padding-left: 0px !important;
+}
+
+.card-content > ul > li {
+    list-style-type: none;
+    display: inline;
 }
 
 .card > .content {
@@ -100,9 +108,6 @@ hr {
     background-color: #c7ae72;
 }
 
-.testtwo {
-    float: left;
-}
 .container {
     margin-left: 25%;
     border: 1px white solid;
@@ -128,11 +133,14 @@ body {
 
 .navigation-bar {
     position: absolute;
+    justify-content: left;
     right: 2%;
 }
-
+.navbar-nav {
+    justify-content: left;
+}
 .navbar-brand {
-    margin-left: 2%;
+    margin-left: 1%;
     color: white;
     font-size: 45px !important;
     font-weight: bolder;
@@ -140,7 +148,9 @@ body {
 .nav-item {
     margin-right: 5px;
 }
-
+.navbar {
+    display: flex;
+}
 .navbarText {
     width: 100%;
     text-align: left;
@@ -181,12 +191,6 @@ body {
     margin: 0 10px 0 0;
     padding: 15px;
 }
-.contactprofile {
-    width: 300px;
-    height: 100%;
-    margin: 0 10px 20px 0;
-    padding: 15px;
-}
 
 .resumePNG {
     width: 150px;
@@ -213,6 +217,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+}
+.contactprofile {
+    width: 300px;
+    height: 100%;
+    margin: 0 10px 20px 0;
+    padding: 15px;
 }
 
 .contact-card-details {
@@ -247,6 +257,11 @@ body {
     height: 100%;
 }
 
+.closer {
+    text-align: center;
+    height: 100%;
+}
+
 .thankyou {
     background-color: #fff;
     margin: 10px;
@@ -256,4 +271,53 @@ body {
     text-align: center;
     /* display: flex; */
     /* margin-top: 50px; */
+}
+@media screen and (max-width: 1035px) {
+    .contact-card {
+        width: 75%;
+    }
+}
+/* At the top level of your code */
+@media screen and (max-width: 800px) {
+    .contact-card {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    .contactprofile {
+        width: 300px;
+        height: 100%;
+        margin: 0 10px 20px 0;
+        padding: 15px;
+    }
+
+    .contact-card-details {
+        width: auto;
+        padding: 10px;
+    }
+
+    .contact-box {
+        background-color: #545720;
+        color: #fff;
+    }
+
+    .contactLinks {
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .card-content {
+        text-align: center;
+        height: 100%;
+    }
+    .card-content > ul > li {
+        list-style-type: none;
+        display: flex;
+    }
+    .projectCard {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
