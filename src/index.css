@@ -1,5 +1,6 @@
-html {
-    width: 100%;
+h1 {
+    color: black;
+    text-align: center;
 }
 .title {
     font-weight: bold;
@@ -20,7 +21,7 @@ img {
     position: relative;
     display: flex;
     /* background-image: url("../src/assets/images/background.png"); */
-    background-color: #815435;
+    background-color: #4285f4;
     border-bottom: 3px solid #55561c;
 }
 
@@ -207,7 +208,7 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #815435;
+    background-color: #67692a;
     color: white;
     text-align: center;
     border-top: 3px solid #51541d;

@@ -1,5 +1,6 @@
 import React from "react";
 import Profile from "../assets/tripp.jpeg";
+import { Link } from "react-router-dom";
 
 function AboutCard() {
     return (
@@ -34,9 +35,20 @@ function AboutCard() {
                     </p>
 
                     <p>
-                        I am interested in learning about new opportunities and
-                        can be reached through this portfolio,
+                        I am also open minded to learning about new
+                        opportunities. Please click the link below for my
+                        contact information.
                     </p>
+                    <Link
+                        to="/contact"
+                        className={
+                            window.location.pathname === "/contact"
+                                ? "nav-link active"
+                                : "nav-link"
+                        }
+                    >
+                        <h1>Contact Tripp Parham</h1>
+                    </Link>
                 </div>
             </div>
         </div>
