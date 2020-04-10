@@ -52,7 +52,7 @@
         "location": "https://tripps-note-taker.herokuapp.com/"
     }, {
         "id": 9,
-        "name": "Employee Tracker",
+        "name": "Employee Manager",
         "image": "./images/employeeTracker.png",
         "project": "Keep track of Employee's Employment Status",
         "location": "https://github.com/wilpar4813/employeeTracker"
@@ -64,9 +64,9 @@
         "location": "https://burgersdelight.herokuapp.com"
     }, {
         "id": 11,
-        "name": "Job Book",
-        "image": "./images/jobBook.png",
-        "project": "Search GitHub Job Listings",
-        "location": "https://job-book2.herokuapp.com/"
+        "name": "Fitness Tracker",
+        "image": "./images/workoutTracker.png",
+        "project": "Track Your Workouts",
+        "location": " https://fitmarks.herokuapp.com"
     }
 ]

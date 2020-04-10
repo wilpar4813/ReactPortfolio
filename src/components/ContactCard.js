@@ -11,7 +11,7 @@ function ContactCard(props) {
                         <li>
                             <a
                                 href="tel:+9196054100"
-                                className="ml-4 mt-4 font-weight-bold"
+                                className="ml-4 mt-4 font-weight-bold firstInList"
                             >
                                 Phone
                             </a>
