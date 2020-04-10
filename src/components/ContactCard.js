@@ -31,13 +31,16 @@ function ContactCard(props) {
                     >
                         GitHub
                     </a>
+                    <hr />
                     <div className="thankyou">
                         <img
                             src={Profile}
                             alt="profile"
-                            className="contactprofile float-left"
+                            className="contactprofile"
                         ></img>
-                        <p className="thankyoutext float-right">
+                    </div>
+                    <div className="thankyoutext">
+                        <p>
                             <h2>Thank you for visiting my site</h2>
                         </p>
                     </div>

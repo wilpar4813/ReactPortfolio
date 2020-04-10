@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Resume from "./components/pages/Resume";
 import Footer from "./components/Footer";
@@ -9,7 +9,7 @@ import Contact from "./components/pages/Contact";
 
 function App() {
     return (
-        <Router>
+        <Router basename="/ReactPortfolio">
             <div>
                 <Navbar />
                 <Route exact path="/" component={About} />

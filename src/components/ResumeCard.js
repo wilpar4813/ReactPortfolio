@@ -2,35 +2,59 @@ import React from "react";
 
 function ResumeCard() {
     return (
-        <div className="about-container">
+        <div className="resume-container">
             <u>
                 <h1>My Mission</h1>
             </u>
             <p>
-                My mission is to launch a career in Full Stack Web Development
+                My Mission is to launch a new career in full stack web
+                development with a company that is looking for self-motivated
+                innovator
             </p>
             <hr />
             <u>
                 <h1>Skills</h1>
             </u>
+            <h5>Full Stack Web Development Technologies</h5>
             <p>
-                Skills Summary Converged and Hyper-Converged Technologies:
-                VxRack with ScaleIO, Vblock 100,200,300,500,and 700 Series
-                Network Technologies: Cisco Nexus 1000v, Nexus 2000 FEX, Nexus
-                3000, Nexus 5000, Nexus 7000, Nexus 9000 (NX-OS/ACI), MDS 9148,
-                MDS 9248, MDS 9710 Zoning, VLAN Management, Port Channels,
-                Virtual Port Channels, Trunks, HSRP, WWPN, Spanning Tree, Fabric
-                Path, CDP, FC, FCoE, iSCSI, NAS, NFS, CIFS Compute Technologies:
+                HTML, CSS, GIT, Bootstrap, Materialize, Heroku, Javascript,
+                Jquery, JS Timers, API's, AJAX, Local Storage, Node JS,
+                Constructors, Callbacks, MySQL, Node-Express Server,
+                Handlebars/Templating, Sequelize, Test Driven Development,
+                Agile, MongoDB, React JS, MS Visual Studio Code
+            </p>
+            <h5>Converged and Hyper-Converged Storage Array Technologies</h5>
+            <p>VxRack with ScaleIO, Vblock 100,200,300,500,and 700 Series</p>
+            <h5>Network Technologies</h5>
+            <p>
+                Cisco Nexus 1000v, Nexus 2000 FEX, Nexus 3000, Nexus 5000, Nexus
+                7000, Nexus 9000 (NX-OS/ACI), MDS 9148, MDS 9248, MDS 9710
+                Zoning, VLAN Management, Port Channels, Virtual Port Channels,
+                Trunks, HSRP, WWPN, Spanning Tree, Fabric Path, CDP, FC, FCoE,
+                iSCSI, NAS, NFS, CIFS
+            </p>
+            <h5>Compute Technologies</h5>
+            <p>
                 Cisco UCS 6148, UCS 6248, UCS Manager, UCS B-Series, UCS
                 C-Series, Multi UCSM Domain, UCS Mini, Microsoft Windows Server
                 2008/2012, Active Directory, DNS, DHCP, IPv4, IPv6, Linux, Red
-                Hat, Apple OS X, Dell iDRAC Virtualization Technologies: VMware
-                vSphere 5.0, 5.5, 6.0, vCenter Thick Client, vCenter Web Client,
-                vCenter Server Appliance, vMotion, Standard and Distributed
-                Switching, vCenter Update Manager, SSO Storage Technologies: EMC
-                VMAX, VNX, Unity, VPLEX, Solutions Enabler (SMI-S), SYMCLI,
-                Unisphere, ScaleIO Infrastructure Technologies: Cat 6, Fiber,
-                Panduit, SolarWinds CatTools, Cable Management, Power Management
+                Hat, Apple OS X, Dell iDRAC
+            </p>
+            <h5>Virtualization Technologies</h5>
+            <p>
+                VMware vSphere 5.0, 5.5, 6.0, vCenter Thick Client, vCenter Web
+                Client, vCenter Server Appliance, vMotion, Standard and
+                Distributed Switching, vCenter Update Manager, SSO
+            </p>
+            <h5>Storage Technologies</h5>
+            <p>
+                EMC VMAX, VNX, Unity, VPLEX, Solutions Enabler (SMI-S), SYMCLI,
+                Unisphere, ScaleIO
+            </p>
+            <h5> Infrastructure Technologies</h5>
+            <p>
+                Cat 6, Fiber, Panduit, SolarWinds CatTools, Cable Management,
+                Power Management
             </p>
             <hr />
             <u>
@@ -262,9 +286,13 @@ function ResumeCard() {
                         <li>A+ Student</li>
                     </ul>
                 </li>
+                <hr />
                 <li>
                     <h3>Associate of Science Degree</h3>
-                    <h5>Computer and Information Systems/Network Security</h5> 
+                    <h5>
+                        Computer and Information Systems with concentration in
+                        Network Security
+                    </h5>
                     <h5>ECPI University</h5>
                     <h5>Raleigh, NC</h5>
                     <ul>
@@ -273,6 +301,7 @@ function ResumeCard() {
                         <li>Vice President of Computer Hardware Club</li>
                     </ul>
                 </li>
+                <hr />
                 <li>
                     <h3>Post Bachelors Certification</h3>
                     <h5>Computer Programming</h5>
@@ -280,6 +309,7 @@ function ResumeCard() {
                     <h5>Raleigh, NC</h5>
                     <h5>Graduated May 2000</h5>
                 </li>
+                <hr />
                 <li>
                     <h3>Bachelors of Science Degree</h3>
                     <h3>Biological Sciences</h3>
