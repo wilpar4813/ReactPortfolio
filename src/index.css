@@ -1,3 +1,6 @@
+html {
+    width: 100%;
+}
 .title {
     font-weight: bold;
     margin: 20px;
@@ -42,7 +45,7 @@ hr {
 
 .card > .img-container {
     height: 200px;
-    width: 280px;
+    max-width: 280px;
     /* overflow: hidden; */
     text-align: center;
 
@@ -307,6 +310,18 @@ body {
     }
 }
 
+@media screen and (max-width: 780px) {
+    .container {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .portfolio-container {
+        margin-top: 0px;
+    }
+}
 @media screen and (max-width: 440px) {
     .card-content {
         text-align: center;
@@ -315,9 +330,5 @@ body {
     .card-content > ul > li {
         list-style-type: none;
         display: flex;
-    }
-    .projectCard {
-        margin-left: 0px;
-        margin-right: 0px;
     }
 }
