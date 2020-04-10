@@ -47,7 +47,7 @@ function AboutCard() {
                                 : "nav-link"
                         }
                     >
-                        <h1>Contact Tripp Parham</h1>
+                        <h1 className="contactTripp">Contact Tripp Parham</h1>
                     </Link>
                 </div>
             </div>

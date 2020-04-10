@@ -3,14 +3,15 @@ import React from "react";
 function ResumeCard() {
     return (
         <div className="resume-container">
-            <u>
-                <h1>My Mission</h1>
-            </u>
-            <p>
-                My Mission is to launch a new career in full stack web
-                development with a company that is looking for self-motivated
-                innovator
-            </p>
+            <h1>My Mission</h1>
+
+            <center>
+                <p>
+                    My Mission is to launch a new career in full stack web
+                    development with a company that is looking for
+                    self-motivated innovator
+                </p>
+            </center>
             <hr />
             <u>
                 <h1>Skills</h1>

@@ -34,7 +34,7 @@ body {
 }
 
 hr {
-    border: white;
+    border: 2px solid #072e5c !important;
 }
 
 .card {
@@ -320,6 +320,13 @@ body {
     .contactLinks {
         margin-left: 35%;
     }
+}
+.contactTripp {
+    border: 1px solid #072e5c;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 5px;
 }
 
 @media screen and (max-width: 780px) {
