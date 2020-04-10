@@ -21,12 +21,16 @@ img {
     position: relative;
     display: flex;
     /* background-image: url("../src/assets/images/background.png"); */
-    background-color: #4285f4;
+    background-color: #072e5c;
     border-bottom: 3px solid #55561c;
 }
 
 body {
     background-color: #92a298 !important;
+}
+
+.fa-bars {
+    color: white;
 }
 
 hr {

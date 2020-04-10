@@ -6,7 +6,7 @@ import "../index.css";
 function Navbar() {
     return (
         <div className="navcontainer">
-            <nav className="navbar navbar-expand-lg header">
+            <nav className="navbar navbar-expand-md header">
                 <Link className="navbar-brand" to="/">
                     Tripp Parham
                 </Link>
