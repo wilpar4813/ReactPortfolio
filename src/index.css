@@ -287,6 +287,17 @@ body {
     /* display: flex; */
     /* margin-top: 50px; */
 }
+
+.contactTripp {
+    border: 1px solid #072e5c;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 1035px) {
     .contact-card {
         width: 75%;
@@ -321,13 +332,6 @@ body {
         margin-left: 35%;
     }
 }
-.contactTripp {
-    border: 1px solid #072e5c;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    padding: 5px;
-}
 
 @media screen and (max-width: 780px) {
     .container {
@@ -339,6 +343,9 @@ body {
 @media screen and (max-width: 580px) {
     .portfolio-container {
         margin-top: 0px;
+    }
+    .contactTripp {
+        font-size: 24px;
     }
 }
 @media screen and (max-width: 440px) {
