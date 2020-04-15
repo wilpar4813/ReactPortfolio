@@ -13,6 +13,7 @@ Configuration instructions
 
 https://wilpar4813.github.io/ReactPortfolio/
 https://github.com/wilpar4813/ReactPortfolio
+
 Installation instructions
 
 -No installation necessary. Any main stream browser can be used.
