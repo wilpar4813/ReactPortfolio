@@ -12,6 +12,7 @@ Configuration instructions
 - Goto the following link:
 
 https://wilpar4813.github.io/ReactPortfolio/
+
 https://github.com/wilpar4813/ReactPortfolio
 
 Installation instructions
