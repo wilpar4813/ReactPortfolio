@@ -1,68 +1,99 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React Portfolio
 
-## Available Scripts
+Homework Assignment 20
 
-In the project directory, you can run:
+- Portfolio 
+- Version: 2.0.0 
+- Web Design By Tripp Parham 
+- Published: Saturday April 14th 2020
 
-### `npm start`
+Configuration instructions
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Goto the following link:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+https://wilpar4813.github.io/ReactPortfolio/
+https://github.com/wilpar4813/ReactPortfolio
+Installation instructions
 
-### `npm test`
+-No installation necessary. Any main stream browser can be used.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Operating instructions
 
-### `npm run build`
+- From the home screen, click on links to portfolio page and contacts page. 
+- On the portfilio screen, click on links to visit completed projects. -On the contact screen, send a message to Tripp Parham. - Click About at the top of the page to return to the home screen.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+List of files included in the following structure
+- public
+  - images
+    - GitHubCardImage.png
+    - background.png
+    - burgerMuncher.png
+    - codeQuiz.png
+    - concrete_seamless.png
+    - dayPlanner.png
+    - employeeSummary.png
+    - employeeTracker.png
+    - jobBook.png
+    - musicPlus.png
+    - noteTaker.png
+    - passwordGenerator.png
+    - profileGenerator.png
+    - weatherDashboard.png
+    - workoutTracker.png
+  - index-htrml
+  - manifest.json
+- src
+  - assets
+    - EarthColors.jpg
+    - photo.png
+    - tripp.jpeg
+  - compontents
+    - pages
+    - AboutCard.js
+    - ContactCard.js
+    - Footer.js
+    - Navbar.js
+    - PortfolioCard.js
+    - ResumeCard.js
+    - projects.json
+  - App.css
+  - App.js
+  - index.css
+  - index.js
+  - serviceWorker.js
+- package-json
+- package-lock.json
+- README.md (Read for information on site development)  
+- index.html
+- contact.html 
+- portfolio.html 
+- assets folder 
+- style.css
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Copyright and licensing information
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- None
 
-### `npm run eject`
+Contact information for the distributor or programmer
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Site Developer: Tripp Parham 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Email: tripp.parham@me.com
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Known bugs[0]
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Troubleshooting[0] 
+- Pages load correctly. 
+- Cards on portfoilio page are adjusting correctly.
 
-## Learn More
+Credits and acknowledgments
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Special thanks to the Instructors and Staff at the UNC Coding Bootcamp. They are an awesome team.:-) Also I couldn't have completed this project without my tutor, Karen Largent. Thanks to my Mom in heaven that paid for my Bootcamp. Also special thanks to my wife, who hasn't seen me much recently, for her kind patience in dealing with my coding frustrations.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Change Log
 
-### Code Splitting
+Site Updates
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Verion 1.0.0 Released Saturday November 9th 2019 
+- Verion 2.0.0 Released Saturday January 11th 2020
+- Verion 3.0.0 Released Saturday April 14th 2020
