@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Password Generator",
+        "image": "../assets/images/passwordGenerator.png",
+        "project": "Generate Random Password",
+        "location": "https://wilpar4813.github.io/PasswordGenerator/"
+    },
+    {
+        "id": 2,
+        "name": "Coding Quiz",
+        "image": "../assets/images/codeQuiz.png",
+        "project": "A Javascript Quiz",
+        "location": "https://wilpar4813.github.io/codeQuiz/"
+    },
+    {
+        "id": 3,
+        "name": "Day Planner",
+        "image": "../assets/images/dayPlanner.png",
+        "project": "Schedule Your Day",
+        "location": "https://wilpar4813.github.io/DayPlanner/"
+    },
+    {
+        "id": 4,
+        "name": "Weather Dashboard",
+        "image": "../assets/images/weatherDashboard.png",
+        "project": "Track the Weather",
+        "location": "https://wilpar4813.github.io/weatherDashboard/"
+    }, {
+        "id": 5,
+        "name": "Music Plus",
+        "image": "../assets/images/musicPlus.png",
+        "project": "A Weather Tracking App",
+        "location": "https://wilpar4813.github.io/musicPlus/"
+    }, {
+        "id": 6,
+        "name": "Profile Generator",
+        "image": "../assets/images/profileGenerator.png",
+        "project": "Generate a Github Profile",
+        "location": "https://github.com/wilpar4813/GitHubProfileGenerator"
+    }, {
+        "id": 7,
+        "name": "Employee Summary",
+        "image": "../assets/images/employeeSummary.png",
+        "project": "Generate Summary of EMployees Data to HTML File",
+        "location": "https://github.com/wilpar4813/employeeSummary"
+    }, {
+        "id": 8,
+        "name": "Note Taker",
+        "image": "../assets/images/noteTaker.png",
+        "project": "A Note Taking App",
+        "location": "https://tripps-note-taker.herokuapp.com/"
+    }, {
+        "id": 9,
+        "name": "Employee Tracker",
+        "image": "../assets/images/employeeTracker.png",
+        "project": "Keep track of Employee's Employment Status",
+        "location": "https://github.com/wilpar4813/employeeTracker"
+    }, {
+        "id": 10,
+        "name": "Burger Muncher",
+        "image": "../assets/images/burgerMuncher.png",
+        "project": "Devour A Virtual Burger Guilt Free",
+        "location": "https://burgersdelight.herokuapp.com"
+    }, {
+        "id": 11,
+        "name": "Job Book",
+        "image": "../assets/images/jobBook.png",
+        "project": "Search GitHub Job Listings",
+        "location": "https://job-book2.herokuapp.com/"
+    }
+]
