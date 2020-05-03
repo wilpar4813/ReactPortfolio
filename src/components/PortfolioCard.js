@@ -8,7 +8,13 @@ function PortfolioCard(props) {
                 <img alt={props.name} src={props.image} />
             </div>
             <div className="content">
-                <a href={props.location} className="btn btn-primary text-block">
+                <a
+                    href={props.location}
+                    className="btn btn-primary text-block"
+                    data-toggle="popover"
+                    title={props.name}
+                    data-content={props.description}
+                >
                     {props.name}
                 </a>
             </div>

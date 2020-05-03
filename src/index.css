@@ -2,6 +2,12 @@ h1 {
     color: black;
     text-align: center;
 }
+
+h6 {
+    font-weight: bolder !important;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
 .title {
     font-weight: bold;
     margin: 20px;
@@ -63,9 +69,14 @@ hr {
 
 .card-content > ul > li {
     list-style-type: none;
-    display: inline;
+    text-align: center;
+    margin-bottom: 10px;
+    /* display: inline; */
 }
 
+.card-content > ul > li > a {
+    margin-left: 15px !important;
+}
 .card > .content {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -350,12 +361,11 @@ body {
 }
 @media screen and (max-width: 440px) {
     .card-content {
-        text-align: center;
+        text-align: left;
         height: 100%;
     }
     .card-content > ul > li {
-        list-style-type: none;
-        display: inline-flex;
+        text-align: center;
     }
     .navbar-brand {
         color: white;
