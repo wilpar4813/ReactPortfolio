@@ -192,120 +192,52 @@ function ResumeCard() {
                     </ul>
                 </li>
                 <hr />
-                <li>
-                    <h3>Student Work Study</h3>
-                    <h5>October 2009 - March 2010</h5>
-                    <h5>ECPI University</h5>
-                    <h5>Raleigh, NC</h5>
-                    <ul>
-                        <li>
-                            Various duties included installing computer
-                            hardware, rolling out software installations,
-                            modifying domain user accounts, researching new
-                            products, resolving connectivity issues, supporting
-                            students and staff with workstation and network
-                            questions
-                        </li>
-                        <li>
-                            Assisted with the expansion of ECPI’s local area
-                            network into a new addition of their Raleigh
-                            location
-                        </li>
-                    </ul>
-                </li>
-                <hr />
-                <li>
-                    <h3>State Pesticide Inspector</h3>
-                    <h5>September 2008 - May 2009</h5>
-                    <h5>North Carolina Dept. of Agriculture</h5>
-                    <h5>Food and Drug Protection Division</h5>
-                    <h5>Raleigh, NC</h5>
-                    <ul>
-                        <li>
-                            Inspected pesticide dealers for regulatory
-                            violations in a nine county area of North Carolina
-                            Searched for unregistered or mislabeled pesticide
-                            products
-                        </li>
-                        <li>
-                            Provided educational outreach and conducted
-                            investigations where pesticide misuse was suspected
-                            at various locations including farms, corporate
-                            institutions, schools, and private residences
-                        </li>
-                    </ul>
-                </li>
-                <hr />
-                <li>
-                    <h3>Real Estate Broker/Realtor</h3>
-                    <h5>January 2007 - January 2009</h5>
-                    <h5>Keller Williams Realty</h5>
-                    <h5>Raleigh, NC</h5>
-                    <ul>
-                        <li>
-                            Assisted buyers and sellers in the purchase or sale
-                            of real property
-                        </li>
-                        <li>
-                            Aided sellers in the staging, marketing and
-                            negotiations in the sale of their homes
-                        </li>
-                        <li>
-                            Worked with buyers and sellers through the closing
-                            of real estate transactions and in the coordination
-                            of home inspections, surveys, and working with
-                            mortgage companies in order to ensure a smooth
-                            closing{" "}
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <hr />
-            <u>
-                <h1>Education</h1>
-            </u>
-            <ul>
-                <li>
-                    <h3>Full Stack Web Development Bootcamp Certification</h3>
-                    <h5>The University of North Carolina</h5>
-                    <h5>Department of Computer Scicence</h5>
-                    <h5>Raleigh, NC</h5>
-                    <ul>
-                        <li>Graduated April 2020</li>
-                        <li>A+ Student</li>
-                    </ul>
-                </li>
-                <hr />
-                <li>
-                    <h3>Associate of Science Degree</h3>
-                    <h5>
-                        Computer and Information Systems with concentration in
-                        Network Security
-                    </h5>
-                    <h5>ECPI University</h5>
-                    <h5>Raleigh, NC</h5>
-                    <ul>
-                        <li>Graduated December 2010 4.0 GPA</li>
-                        <li>Phi Theta Kappa National Honor Society</li>
-                        <li>Vice President of Computer Hardware Club</li>
-                    </ul>
-                </li>
-                <hr />
-                <li>
-                    <h3>Post Bachelors Certification</h3>
-                    <h5>Computer Programming</h5>
-                    <h5>North Carolina State University</h5>
-                    <h5>Raleigh, NC</h5>
-                    <h5>Graduated May 2000</h5>
-                </li>
-                <hr />
-                <li>
-                    <h3>Bachelors of Science Degree</h3>
-                    <h3>Biological Sciences</h3>
-                    <h5>North Carolina State University</h5>
-                    <h5>Raleigh, NC</h5>
-                    <h5>Graduated May 1994</h5>
-                </li>
+                <u>
+                    <h1>Education</h1>
+                </u>
+                <ul>
+                    <li>
+                        <h3>
+                            Full Stack Web Development Bootcamp Certification
+                        </h3>
+                        <h5>The University of North Carolina</h5>
+                        <h5>Department of Computer Scicence</h5>
+                        <h5>Raleigh, NC</h5>
+                        <ul>
+                            <li>Graduated April 2020</li>
+                            <li>A+ Student</li>
+                        </ul>
+                    </li>
+                    <hr />
+                    <li>
+                        <h3>Associate of Science Degree</h3>
+                        <h5>
+                            Computer and Information Systems with concentration
+                            in Network Security
+                        </h5>
+                        <h5>ECPI University</h5>
+                        <h5>Raleigh, NC</h5>
+                        <ul>
+                            <li>4.0 GPA</li>
+                            <li>Phi Theta Kappa National Honor Society</li>
+                            <li>Vice President of Computer Hardware Club</li>
+                        </ul>
+                    </li>
+                    <hr />
+                    <li>
+                        <h3>Post Bachelors Certification</h3>
+                        <h5>Computer Programming</h5>
+                        <h5>North Carolina State University</h5>
+                        <h5>Raleigh, NC</h5>
+                    </li>
+                    <hr />
+                    <li>
+                        <h3>Bachelors of Science Degree</h3>
+                        <h3>Biological Sciences</h3>
+                        <h5>North Carolina State University</h5>
+                        <h5>Raleigh, NC</h5>
+                    </li>
+                </ul>
             </ul>
         </div>
     );
