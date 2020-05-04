@@ -16,6 +16,7 @@ function Portfolio() {
                         image={item.image}
                         project={item.project}
                         location={item.location}
+                        description={item.description}
                     />
                 ))}
             </div>

@@ -48,7 +48,7 @@ function Navbar() {
                                         : "nav-link"
                                 }
                             >
-                                Portfolio
+                                Projects
                             </Link>
                         </li>
                         <li className="nav-item">

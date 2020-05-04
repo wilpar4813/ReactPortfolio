@@ -9,16 +9,13 @@ function ResumeCard() {
 
             <center>
                 <p>
-                    Seeking FULL STACK web developer role leveraging six years
-                    deep hands-on experience in datacenter systems engineering
-                    and working simultaneously with multiple software
-                    development teams. Recently certifying in Full Stack Web
-                    Development from the University of North Carolina, I
-                    acquired skills in JavaScript, Node, React, CSS, Bootstrap
-                    and responsive web design with an A+ average. Looking to
-                    bring a unique perspective and skillset to a passionate
-                    quality-driven team that works together to create a better
-                    customer experience and a successful profitable company.
+                    FULL STACK web developer leveraging six years deep hands-on
+                    experience in datacenter systems engineering and working
+                    simultaneously with multiple software development teams.
+                    Recently certifying in Full Stack Web Development from the
+                    University of North Carolina, aquiring skills in JavaScript,
+                    Node, React, CSS, Bootstrap and responsive web design with
+                    an A+ average.
                 </p>
             </center>
             <hr />
@@ -79,6 +76,7 @@ function ResumeCard() {
                         </li>
                     </ul>
                 </li>
+                <hr />
                 <li>
                     <h3>Lab Systems Engineer</h3>
                     <h5>August 2014 – July 2016</h5>
