@@ -6,7 +6,24 @@ import "../index.css";
 function Navbar() {
     return (
         <div className="navcontainer">
-            <nav className="contactBar"></nav>
+            <nav className="contactBar">
+                <div className="icons">
+                    <ul>
+                        <li>
+                            <i class="fab fa-facebook-square"></i>
+                        </li>
+                        <li>
+                            <i class="far fa-envelope"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-linkedin"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-github-square"></i>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
             <nav className="navbar navbar-expand-md header">
                 <Link className="navbar-brand" to="/">
                     Tripp Parham

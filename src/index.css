@@ -156,6 +156,24 @@ body {
     height: 45px;
     background-color: #4d6d8f;
 }
+
+.icons {
+    max-width: 1600px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icons > ul {
+    display: flex;
+    position: absolute;
+    right: 20px;
+}
+
+.icons > ul > li {
+    color: white;
+    font-size: 35px;
+    margin-right: 25px;
+}
 .navcontainer {
     /* margin-left: 25%; */
     /* border: 1px white solid; */
