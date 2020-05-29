@@ -10,16 +10,24 @@ function Navbar() {
                 <div className="icons">
                     <ul>
                         <li>
-                            <i class="fab fa-facebook-square"></i>
+                            <a href="mailto:webmaster@tripp.parham@gmail.com">
+                                <i class="far fa-envelope"></i>
+                            </a>
                         </li>
                         <li>
-                            <i class="far fa-envelope"></i>
+                            <a href="https://bit.ly/3baM4M9">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
                         </li>
                         <li>
-                            <i class="fab fa-linkedin"></i>
+                            <a href="https://bit.ly/3cdMQcP">
+                                <i class="fab fa-github-square"></i>
+                            </a>
                         </li>
                         <li>
-                            <i class="fab fa-github-square"></i>
+                            <a href="https://www.facebook.com/TrippParham">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
                         </li>
                     </ul>
                 </div>
