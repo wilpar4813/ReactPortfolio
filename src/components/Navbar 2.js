@@ -6,7 +6,6 @@ import "../index.css";
 function Navbar() {
     return (
         <div className="navcontainer">
-            <nav className="contactBar"></nav>
             <nav className="navbar navbar-expand-md header">
                 <Link className="navbar-brand" to="/">
                     Tripp Parham
@@ -49,7 +48,7 @@ function Navbar() {
                                         : "nav-link"
                                 }
                             >
-                                Projects
+                                Portfolio
                             </Link>
                         </li>
                         <li className="nav-item">

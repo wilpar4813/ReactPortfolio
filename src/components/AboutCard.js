@@ -52,16 +52,6 @@ function AboutCard() {
                         experience and a successful profitable company. Please
                         click the link below for my contact information.
                     </p>
-                    <Link
-                        to="/contact"
-                        className={
-                            window.location.pathname === "/contact"
-                                ? "nav-link active"
-                                : "nav-link"
-                        }
-                    >
-                        <h1 className="contactTripp">Contact Tripp Parham</h1>
-                    </Link>
                 </div>
             </div>
         </div>

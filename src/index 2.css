@@ -2,21 +2,7 @@ h1 {
     color: black;
     text-align: center;
 }
-
-h6 {
-    font-weight: bolder !important;
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-ul {
-    list-style-type: none;
-}
-p {
-    font-size: 28px;
-}
 .title {
-    text-align: left;
-    font-size: 55px;
     font-weight: bold;
     margin: 20px;
 }
@@ -39,9 +25,8 @@ img {
     border-bottom: 3px solid #55561c;
 }
 
-html {
-    margin-left: auto;
-    margin-right: auto;
+body {
+    background-color: #92a298 !important;
 }
 
 .fa-bars {
@@ -78,14 +63,9 @@ hr {
 
 .card-content > ul > li {
     list-style-type: none;
-    text-align: center;
-    margin-bottom: 10px;
-    /* display: inline; */
+    display: inline;
 }
 
-.card-content > ul > li > a {
-    margin-left: 15px !important;
-}
 .card > .content {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -133,7 +113,7 @@ hr {
 .portfolio-container {
     margin-top: 60px;
     margin-bottom: 100px;
-    background-color: white;
+    background-color: #c7ae72;
 }
 
 .container {
@@ -141,6 +121,13 @@ hr {
     border: 1px white solid;
     background-color: #c7ae72;
     width: 50%;
+}
+
+.navcontainer {
+    /* margin-left: 25%; */
+    /* border: 1px white solid; */
+    /* background-color: #c7ae72; */
+    width: 100%;
 }
 
 body {
@@ -152,24 +139,6 @@ body {
     background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.contactBar {
-    height: 45px;
-    background-color: #4d6d8f;
-}
-.navcontainer {
-    /* margin-left: 25%; */
-    /* border: 1px white solid; */
-    background-color: #072e5c;
-    width: 100%;
-}
-
-.navbar {
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-}
-
 .navigation-bar {
     position: absolute;
     justify-content: left;
@@ -178,20 +147,18 @@ body {
 .navbar-nav {
     justify-content: left;
 }
-.navbar-nav > li {
-    font-size: 28px;
-}
-
 .navbar-brand {
+    margin-left: 1%;
     color: white;
-    font-size: 55px !important;
-    font-weight: bold;
-    font-family: "Orbitron", sans-serif;
+    font-size: 45px !important;
+    font-weight: bolder;
 }
 .nav-item {
-    margin-right: 20px;
+    margin-right: 5px;
 }
-
+.navbar {
+    display: flex;
+}
 .navbarText {
     width: 100%;
     text-align: left;
@@ -207,8 +174,8 @@ body {
 
 .about-container {
     border: 1px white solid;
-    background-color: white;
-    max-width: 1400px;
+    background-color: #c7ae72;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -227,7 +194,7 @@ body {
     margin-top: 30px;
 }
 .profile {
-    width: 600px;
+    width: 300px;
     height: 100%;
     margin: 0 10px 0 0;
     padding: 15px;
@@ -383,11 +350,12 @@ body {
 }
 @media screen and (max-width: 440px) {
     .card-content {
-        text-align: left;
+        text-align: center;
         height: 100%;
     }
     .card-content > ul > li {
-        text-align: center;
+        list-style-type: none;
+        display: inline-flex;
     }
     .navbar-brand {
         color: white;
