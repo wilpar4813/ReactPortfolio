@@ -1,3 +1,20 @@
+body {
+    /* background-image: ; The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    min-height: 1300px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+html {
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    max-width: 100%;
+    height: 100%;
+    width: 280px;
+}
 h1 {
     color: black;
     text-align: center;
@@ -21,12 +38,6 @@ p {
     margin: 20px;
 }
 
-img {
-    max-width: 100%;
-    height: 100%;
-    width: 280px;
-}
-
 .aboutText {
     padding: 20px;
     font-size: 20px;
@@ -37,11 +48,6 @@ img {
     /* background-image: url("../src/assets/images/background.png"); */
     background-color: #072e5c;
     border-bottom: 3px solid #55561c;
-}
-
-html {
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .fa-bars {
@@ -139,17 +145,8 @@ hr {
 .container {
     margin-left: 25%;
     border: 1px white solid;
-    background-color: #c7ae72;
+    background-color: white;
     width: 50%;
-}
-
-body {
-    /* background-image: ; The image used */
-    background-color: #cccccc; /* Used if the image is unavailable */
-    min-height: 1300px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .contactBar {
@@ -163,6 +160,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
 .icons > ul {
     display: flex;
     position: absolute;
@@ -174,6 +172,7 @@ body {
     font-size: 35px;
     margin-right: 25px;
 }
+
 .navcontainer {
     /* margin-left: 25%; */
     /* border: 1px white solid; */
@@ -193,6 +192,7 @@ body {
     justify-content: left;
     right: 2%;
 }
+
 .navbar-nav {
     justify-content: left;
 }
@@ -214,6 +214,7 @@ body {
     width: 100%;
     text-align: left;
 }
+
 .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;..");
 }
@@ -235,8 +236,8 @@ body {
 }
 .resume-container {
     border: 1px white solid;
-    background-color: #c7ae72;
-    width: 80%;
+    background-color: white;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
@@ -270,8 +271,6 @@ body {
 }
 
 .contact-card {
-    border: 1px white solid;
-    background-color: #c8af74;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
