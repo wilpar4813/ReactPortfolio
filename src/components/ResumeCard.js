@@ -3,57 +3,9 @@ import React from "react";
 function ResumeCard() {
     return (
         <div className="ResumePageContainer">
-            <div className="resumePage">
-                <div className="ed-container">
-                    <u>
-                        <h1>Technical Skills</h1>
-                    </u>
-                    <h5>Full Stack Web Development Technologies</h5>
-                    <p>
-                        HTML, CSS, GIT, Bootstrap, Materialize, Heroku,
-                        Javascript, Jquery, JS Timers, API's, AJAX, Local
-                        Storage, Node JS, Constructors, Callbacks, MySQL,
-                        Node-Express Server, Handlebars/Templating, Sequelize,
-                        Test Driven Development, Agile, MongoDB, React JS, MS
-                        Visual Studio Code, iCode
-                    </p>
-                    <h5>Network and SAN Technologies</h5>
-                    <p>
-                        Cisco Nexus, Cisco MDS, SAN Zoning, VLAN Management,
-                        Port Channels, Virtual Port Channels, Trunks, HSRP,
-                        WWPN, Spanning Tree, FabricPath, CDP, FC, FCoE, iSCSI,
-                        NAS, NFS, CIFS
-                    </p>
-                    <h5>Server Technologies</h5>
-                    <p>
-                        Cisco UCS, Microsoft Windows Server 2008/2012, Active
-                        Directory, DNS, DHCP, IPv4, IPv6, Linux, Red Hat, Apple
-                        OS X, Dell iDRAC
-                    </p>
-                    <h5>Virtualization Technologies</h5>
-                    <p>
-                        VMware vSphere 5.0, 5.5, 6.0, vCenter Thick Client,
-                        vCenter Web Client, vCenter Server Appliance, vMotion,
-                        Standard and Distributed Switching, vCenter Update
-                        Manager, SSO
-                    </p>
-                    <h5>EMC Storage Technologies</h5>
-                    <p>
-                        VBLOCK, VMAX, VXRack, VNX, Unity, VPLEX, Unisphere,
-                        ScaleIO
-                    </p>
-                    <h5> Infrastructure Technologies</h5>
-                    <p>
-                        Cat 6, Fiber, Panduit, SolarWinds CatTools, Cable
-                        Management, Power Management
-                    </p>
-                    <hr />
-                </div>
-
-                <div className="resume-container">
-                    <u>
-                        <h1>Summary</h1>
-                    </u>
+            <div className="summary">
+                <div className="summary-container">
+                    <h1>Summary</h1>
 
                     <center>
                         <p>
@@ -68,10 +20,61 @@ function ResumeCard() {
                         </p>
                     </center>
                     <hr />
+                </div>
+            </div>
+            <div className="resumePage">
+                <div className="skills-container">
+                    <h1>Technical Skills</h1>
 
-                    <u>
-                        <h1>Experience</h1>
-                    </u>
+                    <h3>Full Stack Web Development Technologies:</h3>
+                    <p>
+                        HTML, CSS, GIT, Bootstrap, Materialize, Heroku,
+                        Javascript, Jquery, JS Timers, API's, AJAX, Local
+                        Storage, Node JS, Constructors, Callbacks, MySQL,
+                        Node-Express Server, Handlebars/Templating, Sequelize,
+                        Test Driven Development, Agile, MongoDB, React JS, MS
+                        Visual Studio Code, iCode
+                    </p>
+                    <hr />
+                    <h3>Network and SAN Technologies:</h3>
+                    <p>
+                        Cisco Nexus, Cisco MDS, SAN Zoning, VLAN Management,
+                        Port Channels, Virtual Port Channels, Trunks, HSRP,
+                        WWPN, Spanning Tree, FabricPath, CDP, FC, FCoE, iSCSI,
+                        NAS, NFS, CIFS
+                    </p>
+                    <hr />
+                    <h3>Server Technologies:</h3>
+                    <p>
+                        Cisco UCS, Microsoft Windows Server 2008/2012, Active
+                        Directory, DNS, DHCP, IPv4, IPv6, Linux, Red Hat, Apple
+                        OS X, Dell iDRAC
+                    </p>
+                    <hr />
+                    <h3>Virtualization Technologies:</h3>
+                    <p>
+                        VMware vSphere 5.0, 5.5, 6.0, vCenter Thick Client,
+                        vCenter Web Client, vCenter Server Appliance, vMotion,
+                        Standard and Distributed Switching, vCenter Update
+                        Manager, SSO
+                    </p>
+                    <hr />
+                    <h5>EMC Storage Technologies</h5>
+                    <p>
+                        VBLOCK, VMAX, VXRack, VNX, Unity, VPLEX, Unisphere,
+                        ScaleIO
+                    </p>
+                    <hr />
+                    <h5> Infrastructure Technologies</h5>
+                    <p>
+                        Cat 6, Fiber, Panduit, SolarWinds CatTools, Cable
+                        Management, Power Management
+                    </p>
+                </div>
+
+                <div className="resume-container">
+                    <h1>Experience</h1>
+
                     <ul>
                         <li>
                             <h3>Customer Support Engineer SAN MDS</h3>
@@ -221,9 +224,8 @@ function ResumeCard() {
                     </ul>
                 </div>
                 <div className="ed-container">
-                    <u>
-                        <h1>Education</h1>
-                    </u>
+                    <h1>Education</h1>
+
                     <ul>
                         <li>
                             <h3>
