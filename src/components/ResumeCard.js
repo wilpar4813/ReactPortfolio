@@ -59,13 +59,13 @@ function ResumeCard() {
                         Manager, SSO
                     </p>
                     <hr />
-                    <h5>EMC Storage Technologies</h5>
+                    <h3>EMC Storage Technologies</h3>
                     <p>
                         VBLOCK, VMAX, VXRack, VNX, Unity, VPLEX, Unisphere,
                         ScaleIO
                     </p>
                     <hr />
-                    <h5> Infrastructure Technologies</h5>
+                    <h3> Infrastructure Technologies</h3>
                     <p>
                         Cat 6, Fiber, Panduit, SolarWinds CatTools, Cable
                         Management, Power Management
