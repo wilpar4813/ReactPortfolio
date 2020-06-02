@@ -6,7 +6,7 @@
 * Published: Saturday April 14th 2020
 
 ## Description
-This this my personal portfolio website.  It contains inforation about me and includes my projects and contact information.  My resume is availabe on the site too.
+This this my personal portfolio website.  It contains inforation about me and includes my projects and contact information.  My resume is availabe on the site too. This application utilizes React and Bootstrap.  
 
 ## Configuration instructions
 * No installation necessary. Any main stream browser can be used.
