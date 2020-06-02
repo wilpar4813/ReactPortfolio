@@ -8,6 +8,12 @@
 ## Description
 This this my personal portfolio website.  It contains inforation about me and includes my projects and contact information.  My resume is availabe on the site too. This application utilizes React and Bootstrap.  
 
+# Screenshots
+![Portfolio Image](./public/images/portfolio.png)
+![Portfolio Image](./public/images/portfolio2.png)
+![Portfolio Image](./public/images/portfolio3.png)
+![Portfolio Image](./public/images/portfolio4.png)
+
 ## Configuration instructions
 * No installation necessary. Any main stream browser can be used.
 * To view my portfilio please visit the following link:
