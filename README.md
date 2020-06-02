@@ -18,7 +18,7 @@ https://github.com/wilpar4813/ReactPortfolio
 
 # Operating instructions
 
-# From the home screen, click on links to portfolio page and contacts page. 
+* From the home screen, click on links to portfolio page and contacts page. 
 * On the portfilio screen, click on links to visit completed projects. 
 * On the contact screen, send a message to Tripp Parham. 
 * Click About at the top of the page to return to the home screen.
