@@ -117,10 +117,12 @@ hr {
     text-align: center;
     height: 100%;
     margin-top: 20px;
+    
 }
 
 .card-content > ul {
     padding-left: 0px !important;
+    max-width: 1600px;
    
 }
 
@@ -160,6 +162,7 @@ hr {
     padding-right: 1rem;
     font-size: 15px;
     height: 200px;
+  
 }
 
 .card > .content > ul {
@@ -168,6 +171,7 @@ hr {
 
 .card > .content > ul > li {
     margin-top: 18px;
+    
 }
 
 .projectCard {
@@ -487,6 +491,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
+    max-width: 1600px;
 }
 .contactprofile {
     width: 300px;
