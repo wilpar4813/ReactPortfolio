@@ -163,12 +163,28 @@ hr {
     height: 40px;
 }
 
+.gitButton{
+    position: absolute;
+    right: 4px;
+    height:30px;
+    width:30px;
+    top: 0px;
+    background-color:white; 
+}
+.gitButton .fab {
+    font-size:40px;
+    color:black;
+
+}
+
 .portfolio-container {
     margin-top: 200px;
     margin-bottom: 100px;
     background-color: white;
     overflow: hidden;
 }
+
+
 
 .container {
     margin-left: 25%;

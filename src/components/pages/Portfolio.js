@@ -17,6 +17,7 @@ function Portfolio() {
                         project={item.project}
                         location={item.location}
                         description={item.description}
+                        github={item.github}
                     />
                 ))}
             </div>
