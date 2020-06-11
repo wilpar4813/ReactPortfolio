@@ -1,0 +1,103 @@
+[
+    {
+        "id": 1,
+        "name": "Password Generator",
+        "image": "./images/passwordGenerator.png",
+        "project": "Generate Random Password",
+        "location": "https://wilpar4813.github.io/PasswordGenerator/",
+        "description": "This app producted a password as secure as you want to make it with lots of options.",
+        "github": "https://github.com/wilpar4813/PasswordGenerator"
+    },
+    {
+        "id": 2,
+        "name": "Coding Quiz",
+        "image": "./images/codeQuiz.png",
+        "project": "A Javascript Quiz",
+        "location": "https://wilpar4813.github.io/codeQuiz/",
+        "description": "This app is a basic javascript quiz using html, css, and some basic javascript.",
+        "github": "https://github.com/wilpar4813/codeQuiz"
+    },
+    {
+        "id": 3,
+        "name": "Day Planner",
+        "image": "./images/dayPlanner.png",
+        "project": "Schedule Your Day",
+        "location": "https://wilpar4813.github.io/DayPlanner/",
+        "description": "With the Day Planner app, schedule daily appointments!",
+        "github": "https://github.com/wilpar4813/DayPlanner"
+    },
+    {
+        "id": 4,
+        "name": "Weather Dashboard",
+        "image": "./images/weatherDashboard.png",
+        "project": "Track the Weather",
+        "location": "https://wilpar4813.github.io/weatherDashboard/",
+        "description": "The Weather Dashboard will give the daily forcasts.",
+        "github": "https://github.com/wilpar4813/weatherDashboard"
+    }, {
+        "id": 5,
+        "name": "Music Plus",
+        "image": "./images/musicPlus.png",
+        "project": "A Weather Tracking App",
+        "location": "https://wilpar4813.github.io/musicPlus/",
+        "description": "Search, play, and create playlists of favorites songs!",
+        "github": "https://github.com/wilpar4813/musicPlus"
+    }, {
+        "id": 6,
+        "name": "Profile Generator",
+        "image": "./images/profileGenerator.png",
+        "project": "Generate a Github Profile",
+        "location": "https://github.com/wilpar4813/GitHubProfileGenerator",
+        "description": "Create a brief github profile for any user!",
+        "github": "https://github.com/wilpar4813/GitHubProfileGenerator"
+    }, {
+        "id": 7,
+        "name": "Employee Summary",
+        "image": "./images/employeeSummary.png",
+        "project": "Generate Summary of EMployees Data to HTML File",
+        "location": "https://github.com/wilpar4813/employeeSummary",
+        "description": "Generate a summary of all staff details.",
+        "github": "https://github.com/wilpar4813/employeeSummary"
+    }, {
+        "id": 8,
+        "name": "Note Taker",
+        "image": "./images/noteTaker.png",
+        "project": "A Note Taking App",
+        "location": "https://tripps-note-taker.herokuapp.com/",
+        "description": "Use this app to keep track of daily notes.",
+        "github": "https://github.com/wilpar4813/noteTaker"
+    }, {
+        "id": 9,
+        "name": "Employee Manager",
+        "image": "./images/employeeTracker.png",
+        "project": "Keep track of Employee's Employment Status",
+        "location": "https://github.com/wilpar4813/employeeTracker",
+        "description": "This app allows empoyees to keep track of their employees employment status.",
+        "github": "https://github.com/wilpar4813/employeeTracker"
+
+    }, {
+        "id": 10,
+        "name": "Burger Muncher",
+        "image": "./images/burgerMuncher.png",
+        "project": "Devour A Virtual Burger Guilt Free",
+        "location": "https://burgersdelight.herokuapp.com",
+        "description": "Create a delicious virtual burger to devour!",
+        "github": "https://github.com/wilpar4813/BurgerMuncher"
+    }, {
+        "id": 11,
+        "name": "Fitness Tracker",
+        "image": "./images/workoutTracker.png",
+        "project": "Track Your Workouts",
+        "location": " https://fitmarks.herokuapp.com",
+        "description": "Easily track your workouts",
+        "github": "https://github.com/wilpar4813/workoutTracker"
+    }, {
+        "id": 11,
+        "name": "GAMR",
+        "image": "./images/gamr.png",
+        "project": "Video game information sight",
+        "location": "https://GAMR-react-application.herokuapp.com/",
+        "description": "Gamers can use GAMR to look up details on any game.  Track lastest game releases and news.",
+        "github": "https://github.com/wilpar4813/GAMR"
+    }
+]
