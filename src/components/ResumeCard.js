@@ -19,7 +19,7 @@ function ResumeCard() {
                             an A+ average.
                         </p>
                     </center>
-                    <hr />
+                   
                 </div>
             </div>
             <div className="resumePage">
