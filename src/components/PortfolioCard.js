@@ -7,7 +7,7 @@ function PortfolioCard(props) {
             <div className="img-container project-image">
                 <img alt={props.name} src={props.image} />
             </div>
-            <hr />
+
             <div className="content">
                 <div className="gitButton">
                     <a
@@ -24,7 +24,7 @@ function PortfolioCard(props) {
                     className="btn btn-primary text-block"
                     data-toggle="popover"
                     title={props.description}
-                    // data-content={props.description}
+                    data-content={props.description}
                 >
                     {props.name}
                 </a>

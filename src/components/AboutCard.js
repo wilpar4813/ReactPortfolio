@@ -6,7 +6,7 @@ function AboutCard() {
     return (
         <div className="about-container">
             <h1 className="title">About Me</h1>
-            <hr />
+        
 
             <img
                 src={Profile}

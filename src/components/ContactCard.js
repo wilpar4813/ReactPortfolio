@@ -4,44 +4,46 @@ import Profile from "../assets/photo.png";
 function ContactCard(props) {
     return (
         <div className="contact-card">
-            <div className="card contact-card-details">
-                <h1 className="text-center contact-box">Contact Information</h1>
+            <h1 className="text-center contact-box">Contact Information</h1>
+
+            <div className="card contactCard contact-card-details">
+                
                 <div className="card-content">
                     <ul>
                         <li>
-                            <h6>Phone:</h6>
+                           <h1>Phone</h1>
                             <a
                                 href="tel:+9196054100"
                                 className="ml-4 mt-4 font-weight-bold firstInList"
                             >
-                                919-605-4100
+                                <h2>919-605-4100</h2>
                             </a>
                         </li>
                         <li>
-                            <h6>Email:</h6>
+                        <h1>Email</h1>
                             <a
                                 href="mailto:webmaster@tripp.parham@gmail.com"
                                 className="ml-4 mt-4 font-weight-bold"
                             >
-                                tripp.parham@gmail.com
+                                <h2>tripp.parham@gmail.com</h2>
                             </a>
                         </li>
                         <li>
-                            <h6>LinkedIn:</h6>
+                        <h1>LinkedIn</h1>
                             <a
-                                href="https://www.linkedin.com/in/trippparham/"
+                                href="https://bit.ly/3baM4M9​"
                                 className="ml-4 mt-4 font-weight-bold"
                             >
-                                https://www.linkedin.com/in/trippparham/
+                                <h2>https://bit.ly/3baM4M9​</h2>
                             </a>
                         </li>
                         <li>
-                            <h6>GitHub:</h6>
+                        <h1>GitHub</h1>
                             <a
                                 href="https://github.com/wilpar4813"
                                 className="ml-4 mt-4 font-weight-bold"
                             >
-                                https://github.com/wilpar4813
+                                ​<h2>https://bit.ly/3cdMQcP</h2>
                             </a>
                         </li>
                     </ul>
@@ -56,7 +58,7 @@ function ContactCard(props) {
                     </div> */}
                     <div className="thankyoutext">
                         <p>
-                            <h2>Thank you for visiting my site</h2>
+                            <h1>Thank you for visiting my site</h1>
                         </p>
                     </div>
                 </div>
