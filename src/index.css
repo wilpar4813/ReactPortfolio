@@ -135,6 +135,7 @@ hr {
     margin-right:20px !important;
     padding:20px;
     vertical-align: middle;
+    border: 1px solid black;
 }
 
 .card-content > ul > li > a {
@@ -489,9 +490,8 @@ hr {
 
 .contact-box {
     background-color: #545720;
-    border-radius: 25px;;
-    color: #fff;
-
+    border:2px solid black;
+    border-radius: 25px;
     text-align: left;
     font-size: 55px;
     font-weight: bold;
@@ -502,8 +502,6 @@ hr {
     text-align: center;
     color:white;
     background-color: #bc9e56;
-    /* width:40%; */
-    border-radius: 25px;
     padding: 10px;
 
 }
