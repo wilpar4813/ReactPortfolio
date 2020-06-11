@@ -423,7 +423,9 @@ hr {
 .skills-container h3 {
     font-weight: bold;
 }
-
+.skills-container p {
+    font-size: 20px !important;
+}
 .resume-container {
     width: 50%;
     background-color: lightblue;
