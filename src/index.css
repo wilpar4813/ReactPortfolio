@@ -33,6 +33,7 @@ p {
     padding: 20px;
     padding-left: 0px;
 }
+
 .title {
     text-align: left;
     font-size: 55px;
@@ -177,10 +178,12 @@ hr {
     width:30px;
     top: 0px;
     background-color:white; 
+   
 }
 .gitButton .fab {
     font-size:40px;
     color:black;
+   
 
 }
 
@@ -189,6 +192,7 @@ hr {
     margin-bottom: 100px;
     background-color: white;
     overflow: hidden;
+    text-align: center;
 }
 
 
@@ -524,7 +528,8 @@ hr {
 
 @media screen and (max-width: 580px) {
     .portfolio-container {
-        margin-top: 0px;
+        margin-top: 175px;
+        text-align: center;
     }
     .contactTripp {
         font-size: 24px;
@@ -532,7 +537,7 @@ hr {
 }
 @media screen and (max-width: 440px) {
     .card-content {
-        text-align: left;
+        /* text-align: left; */
         height: 100%;
     }
     .card-content > ul > li {

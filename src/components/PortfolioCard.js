@@ -7,7 +7,7 @@ function PortfolioCard(props) {
             <div className="img-container project-image">
                 <img alt={props.name} src={props.image} />
             </div>
-
+            <hr />
             <div className="content">
                 <div className="gitButton">
                     <a

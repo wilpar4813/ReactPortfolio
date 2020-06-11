@@ -8,7 +8,7 @@ function Portfolio() {
         <div>
             <div className="container portfolio-container">
                 <h1 className="title">Recent Projects</h1>
-               
+                <hr />
 
                 {projects.map((item) => (
                     <PortfolioCard
