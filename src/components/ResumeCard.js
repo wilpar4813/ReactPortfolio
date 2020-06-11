@@ -74,7 +74,6 @@ function ResumeCard() {
 
                 <div className="resume-container">
                     <h1>Experience</h1>
-
                     <ul>
                         <li>
                             <h3>Customer Support Engineer SAN MDS</h3>
