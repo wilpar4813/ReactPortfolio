@@ -37,7 +37,14 @@ p {
     text-align: left;
     font-size: 55px;
     font-weight: bold;
-    margin: 20px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* text-align: center; */
+    color:black;
+    /* background-color: #6b330d; */
+    width:40%;
+    /* border-radius: 25px; */
+    padding: 10px;
 }
 
 .card-content a:link {

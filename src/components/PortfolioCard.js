@@ -23,8 +23,8 @@ function PortfolioCard(props) {
                     href={props.location}
                     className="btn btn-primary text-block"
                     data-toggle="popover"
-                    title={props.name}
-                    data-content={props.description}
+                    title={props.description}
+                    // data-content={props.description}
                 >
                     {props.name}
                 </a>
