@@ -6,7 +6,8 @@
         "project": "Generate Random Password",
         "location": "https://wilpar4813.github.io/PasswordGenerator/",
         "description": "This app producted a password as secure as you want to make it with lots of options.",
-        "github": "https://github.com/wilpar4813/PasswordGenerator"
+        "github": "https://github.com/wilpar4813/PasswordGenerator",
+        "datatip": "This app producted a password as secure as you want to make it with lots of options."
     },
     {
         "id": 2,
@@ -14,8 +15,9 @@
         "image": "./images/codeQuiz.png",
         "project": "A Javascript Quiz",
         "location": "https://wilpar4813.github.io/codeQuiz/",
-        "description": "This app is a basic javascript quiz using html, css, and some basic javascript.",
-        "github": "https://github.com/wilpar4813/codeQuiz"
+        "description": "",
+        "github": "https://github.com/wilpar4813/codeQuiz",
+        "datatip": "As a web developer, you will probably be<br>asked to complete a coding assessment. <br>These assessments are typically a combination <br>of multiple-choice questions and interactive <br>challenges. In app challenges the user Javascript <br>with multiple-choice questions. The test <br>is timed and graded at the end. Also, keep <br>high scores to measure improvement. <br>This app utilizes html, css, javascript, <br>and local storage."
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "project": "Schedule Your Day",
         "location": "https://wilpar4813.github.io/DayPlanner/",
         "description": "With the Day Planner app, schedule daily appointments!",
-        "github": "https://github.com/wilpar4813/DayPlanner"
+        "github": "https://github.com/wilpar4813/DayPlanner",
+        "datatip": "Description to be added"
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "project": "Track the Weather",
         "location": "https://wilpar4813.github.io/weatherDashboard/",
         "description": "The Weather Dashboard will give the daily forcasts.",
-        "github": "https://github.com/wilpar4813/weatherDashboard"
+        "github": "https://github.com/wilpar4813/weatherDashboard",
+        "datatip": "As an active person, the need to know the weather is a big <br>deal. Use this weather dashboard to search cities for current <br>weather conditions and the future weather outlook for <br>multiple cities. This app utilizes HTML, CSS, and Javascript."
     }, {
         "id": 5,
         "name": "Music Plus",
@@ -41,7 +45,8 @@
         "project": "A Weather Tracking App",
         "location": "https://wilpar4813.github.io/musicPlus/",
         "description": "Search, play, and create playlists of favorites songs!",
-        "github": "https://github.com/wilpar4813/musicPlus"
+        "github": "https://github.com/wilpar4813/musicPlus",
+        "datatip": "As a music lover, you want the most <br>simple way to build and<br>save your favorite playlists. MusicPlus<br>is a place where you can do just that.<br> Create Playlist! Search, play, and <br>sing along to posted lyrics of <br>your favorite musical artists. <br>This app uses a HTML, CSS, <br>JavaScript, and server-side API."
     }, {
         "id": 6,
         "name": "Profile Generator",
@@ -49,7 +54,8 @@
         "project": "Generate a Github Profile",
         "location": "https://github.com/wilpar4813/GitHubProfileGenerator",
         "description": "Create a brief github profile for any user!",
-        "github": "https://github.com/wilpar4813/GitHubProfileGenerator"
+        "github": "https://github.com/wilpar4813/GitHubProfileGenerator",
+        "datatip": "Description to be added"
     }, {
         "id": 7,
         "name": "Employee Summary",
@@ -57,7 +63,8 @@
         "project": "Generate Summary of EMployees Data to HTML File",
         "location": "https://github.com/wilpar4813/employeeSummary",
         "description": "Generate a summary of all staff details.",
-        "github": "https://github.com/wilpar4813/employeeSummary"
+        "github": "https://github.com/wilpar4813/employeeSummary",
+        "datatip": "Description to be added"
     }, {
         "id": 8,
         "name": "Note Taker",
@@ -65,39 +72,55 @@
         "project": "A Note Taking App",
         "location": "https://tripps-note-taker.herokuapp.com/",
         "description": "Use this app to keep track of daily notes.",
-        "github": "https://github.com/wilpar4813/noteTaker"
-    }, {
+        "github": "https://github.com/wilpar4813/noteTaker",
+        "datatip": "With busy daily schedules, it's easy to forget things that <br>need to be done. Many apps make note taking complicated. <br>With the Note Taker app, busy individuals can keep all <br>of their notes in an easy to access database. Create, <br>edit, and save notes with the click of a button.  This app <br>utilizes an express backend to save and retrieve <br>note data from a JSON file."
+    }, 
+    {
         "id": 9,
+        "name": "JobBook",
+        "image": "./images/jobBook.png",
+        "project": "A job finding app",
+        "location": "https://tripps-note-taker.herokuapp.com/",
+        "description": "The JobBook is a place where software developers can easily find and apply for exciting new jobs posted on GitHub.  JobBook Utilizes MySQL, JavaScript, Handlebars, Materialize, MVC modeling, and server side API calls.",
+        "github": "https://github.com/wilpar4813/JobBook",
+        "datatip": "The JobBook is a place where software developers <br> can easily find and apply for exciting new jobs <br>posted on GitHub.  JobBook Utilizes MySQL, JavaScript, <br>Handlebars, Materialize, MVC modeling, and <br>server side API calls."
+    },
+    {
+        "id": 10,
         "name": "Employee Manager",
         "image": "./images/employeeTracker.png",
         "project": "Keep track of Employee's Employment Status",
         "location": "https://github.com/wilpar4813/employeeTracker",
         "description": "This app allows empoyees to keep track of their employees employment status.",
-        "github": "https://github.com/wilpar4813/employeeTracker"
+        "github": "https://github.com/wilpar4813/employeeTracker",
+        "datatip": "Description to be added"
 
     }, {
-        "id": 10,
+        "id": 11,
         "name": "Burger Muncher",
         "image": "./images/burgerMuncher.png",
         "project": "Devour A Virtual Burger Guilt Free",
         "location": "https://burgersdelight.herokuapp.com",
         "description": "Create a delicious virtual burger to devour!",
-        "github": "https://github.com/wilpar4813/BurgerMuncher"
+        "github": "https://github.com/wilpar4813/BurgerMuncher",
+        "datatip": "As a burger lover, you probably have lots of burger ideas <br>the you would like to munch on. Burger Muncher is a low <br>calorie option that allows the user to add any burger to a list <br>of burgers to be devoured. The user can click on the button <br>next to the burger to be devoured to eat it. Once devoured <br>the burger will appear in the Devoured Burger column. <br>This application utilizes MySQL, Node, Express, <br>and Handlebars."
     }, {
-        "id": 11,
+        "id": 12,
         "name": "Fitness Tracker",
         "image": "./images/workoutTracker.png",
         "project": "Track Your Workouts",
         "location": " https://fitmarks.herokuapp.com",
         "description": "Easily track your workouts",
-        "github": "https://github.com/wilpar4813/workoutTracker"
+        "github": "https://github.com/wilpar4813/workoutTracker",
+        "datatip": "As an exercise enthusiast, keeping track of daily workouts in <br>important. With the Workout Tracker, users can create and easily <br>track their daily workouts. Workout statistics are displayed in <br>graphical format to easily track gains or loses. Workout Tracker<br>utilizes Node, NoSQL/MongoDB, HTML, CSS, and Javascript."
     }, {
-        "id": 11,
+        "id": 13,
         "name": "GAMR",
         "image": "./images/gamr.png",
         "project": "Video game information sight",
         "location": "https://GAMR-react-application.herokuapp.com/",
         "description": "Gamers can use GAMR to look up details on any game.  Track lastest game releases and news.",
-        "github": "https://github.com/wilpar4813/GAMR"
+        "github": "https://github.com/wilpar4813/GAMR",
+        "datatip": "Get all of your game data from GAMR. Find popular games, gaming news, <br>recent releases, upcoming releases, as well as most anticipated games"
     }
 ]

@@ -18,6 +18,7 @@ function Portfolio() {
                         location={item.location}
                         description={item.description}
                         github={item.github}
+                        datatip={item.datatip}
                     />
                 ))}
             </div>
