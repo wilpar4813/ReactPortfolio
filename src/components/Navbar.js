@@ -32,7 +32,7 @@ function Navbar() {
                     </ul>
                 </div>
             </nav>
-            <nav className="navbar navbar-expand-md header">
+            <nav className="navbar navbar-expand-lg header">
                 <Link className="navbar-brand" to="/">
                     Tripp Parham
                 </Link>
