@@ -80,7 +80,7 @@
         "name": "JobBook",
         "image": "./images/jobBook.png",
         "project": "A job finding app",
-        "location": "https://tripps-note-taker.herokuapp.com/",
+        "location": "https://myjobbook.herokuapp.com/",
         "description": "The JobBook is a place where software developers can easily find and apply for exciting new jobs posted on GitHub.  JobBook Utilizes MySQL, JavaScript, Handlebars, Materialize, MVC modeling, and server side API calls.",
         "github": "https://github.com/wilpar4813/JobBook",
         "datatip": "The JobBook is a place where software developers <br> can easily find and apply for exciting new jobs <br>posted on GitHub.  JobBook Utilizes MySQL, JavaScript, <br>Handlebars, Materialize, MVC modeling, and <br>server side API calls."
