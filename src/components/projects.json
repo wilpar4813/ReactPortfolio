@@ -1,13 +1,13 @@
 [
     {
         "id": 1,
-        "name": "Password Generator",
-        "image": "./images/passwordGenerator.png",
-        "project": "Generate Random Password",
-        "location": "https://wilpar4813.github.io/PasswordGenerator/",
-        "description": "This app producted a password as secure as you want to make it with lots of options.",
-        "github": "https://github.com/wilpar4813/PasswordGenerator",
-        "datatip": "This app producted a password as secure as you want to make it with lots of options."
+        "name": "JobBook",
+        "image": "./images/jobBook.png",
+        "project": "A job finding app",
+        "location": "https://myjobbook.herokuapp.com/",
+        "description": "The JobBook is a place where software developers can easily find and apply for exciting new jobs posted on GitHub.  JobBook Utilizes MySQL, JavaScript, Handlebars, Materialize, MVC modeling, and server side API calls.",
+        "github": "https://github.com/wilpar4813/JobBook",
+        "datatip": "The JobBook is a place where software developers <br> can easily find and apply for exciting new jobs <br>posted on GitHub.  JobBook Utilizes MySQL, JavaScript, <br>Handlebars, Materialize, MVC modeling, and <br>server side API calls."
     },
     {
         "id": 2,
@@ -77,15 +77,15 @@
     }, 
     {
         "id": 9,
-        "name": "JobBook",
-        "image": "./images/jobBook.png",
-        "project": "A job finding app",
-        "location": "https://myjobbook.herokuapp.com/",
-        "description": "The JobBook is a place where software developers can easily find and apply for exciting new jobs posted on GitHub.  JobBook Utilizes MySQL, JavaScript, Handlebars, Materialize, MVC modeling, and server side API calls.",
-        "github": "https://github.com/wilpar4813/JobBook",
-        "datatip": "The JobBook is a place where software developers <br> can easily find and apply for exciting new jobs <br>posted on GitHub.  JobBook Utilizes MySQL, JavaScript, <br>Handlebars, Materialize, MVC modeling, and <br>server side API calls."
-    },
-    {
+        "name": "Password Generator",
+        "image": "./images/passwordGenerator.png",
+        "project": "Generate Random Password",
+        "location": "https://wilpar4813.github.io/PasswordGenerator/",
+        "description": "This app producted a password as secure as you want to make it with lots of options.",
+        "github": "https://github.com/wilpar4813/PasswordGenerator",
+        "datatip": "This app producted a password as secure as you want to make it with lots of options."
+       },
+       {
         "id": 10,
         "name": "Employee Manager",
         "image": "./images/employeeTracker.png",
