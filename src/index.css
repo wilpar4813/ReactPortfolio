@@ -640,7 +640,8 @@ hr {
 
 @media screen and (max-width: 780px) {
     .container {
-        margin-left: 0px;
+        margin-left: auto;
+        margin-right:auto;
         width: 100%;
     }
     h1{
