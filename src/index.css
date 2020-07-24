@@ -672,6 +672,7 @@ hr {
     }
     .about-container .title{
         margin-bottom: 0px;
+        margin-top: 10px;
     }
     p{
         font-size:18px;
@@ -715,6 +716,9 @@ hr {
     h2,
     h3 {
         font-size: 25px !important;
+    }
+    .profile{
+        padding:25px;
     }
 
 }
