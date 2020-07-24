@@ -35,7 +35,7 @@ function Navbar() {
             </nav>
             <nav className="navbar navbar-expand-lg header navbar-fixed-top">
             
-                <a className="navbar-brand" href="#">Tripp Parham</a>
+                <a className="navbar-brand" href="/about">Tripp Parham</a>
                 <button className="navbar-toggler white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon">
                         <span className="dark-blue-text">
