@@ -9,7 +9,7 @@ function Navbar() {
             <nav className="contactBar">
                 <div className="icons">
                     <ul>
-                        <li>
+                        <li className="ml-auto">
                             <a href="mailto:webmaster@tripp.parham@gmail.com">
                                 <i class="far fa-envelope"></i>
                             </a>
@@ -24,7 +24,7 @@ function Navbar() {
                                 <i class="fab fa-github-square"></i>
                             </a>
                         </li>
-                        <li>
+                        <li className="mr-auto">
                             <a href="https://www.facebook.com/TrippParham">
                                 <i class="fab fa-facebook-square"></i>
                             </a>

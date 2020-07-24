@@ -3,7 +3,7 @@ import React from "react";
 function Footer(props) {
     return (
         <div className="footer">
-            <p>Tripp Parham &#169; 2020</p>
+            <h5>TrippIO Web Services Copyright &#169; 2020</h5>
         </div>
     );
 }

@@ -196,7 +196,7 @@ hr {
     font-weight: bold !important;
     right: 0;
     width: 100%;
-    background-color: #555821 !important;
+    background-color: rgba(0, 0, 0, 1) !important;
     border-color: #815435;
     color: #ffffff;
     padding: 10px;
@@ -222,8 +222,8 @@ hr {
 .portfolio-container {
     margin-top: 200px;
     margin-bottom: 100px;
-    background-image: url("../src/assets/cork-board.png") !important;
-    /* background-color: wheat !important; */
+    /* background-image: url("../src/assets/cork-board.png") !important; */
+    background-color: #cccccc !important;
     overflow: hidden;
     text-align: center;
     border-radius: 25px;
@@ -309,7 +309,7 @@ hr {
 
 .navbar-brand {
     color: white;
-    font-size: 55px !important;
+    font-size: 50px !important;
     font-weight: bold;
     font-family: "Orbitron", sans-serif;
 }
@@ -339,7 +339,7 @@ hr {
     margin-right: auto;
     height: auto;
     padding: 20px;
-    margin-top: 175px;
+    margin-top: 120px;
     margin-bottom: 50px;
 }
 
@@ -476,14 +476,16 @@ hr {
 
 .footer {
     position: fixed;
+    font-weight: bolder;
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 80px;
-    background-color: #67692a;
+    height: 32px;
+    background-color: black;
     color: white;
     text-align: center;
     border-top: 3px solid #51541d;
+    
 }
 
 .contact-card {
@@ -656,6 +658,18 @@ hr {
 }
 
 @media screen and (max-width: 580px) {
+    .about-container{
+        margin-top:80px;
+    }
+    .about-container .title{
+        margin-bottom: 0px;
+    }
+    p{
+        font-size:18px;
+    }
+    .footer h5{
+        font-size:12px !important;
+    }
     .portfolio-container {
         margin-top: 175px;
         text-align: center;
@@ -669,6 +683,12 @@ hr {
     }
 }
 @media screen and (max-width: 440px) {
+    .icons > ul > li {
+        color: white;
+        font-size: 25px;
+        margin-left:0px;
+    
+    }
     .card-content {
         /* text-align: left; */
         height: 100%;

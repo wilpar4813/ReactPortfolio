@@ -1,13 +1,13 @@
 [
     {
         "id": 1,
-        "name": "JobBook",
+        "name": "GitJobs",
         "image": "./images/jobBook.png",
         "project": "A job finding app",
         "location": "https://myjobbook.herokuapp.com/",
-        "description": "The JobBook is a place where software developers can easily find and apply for exciting new jobs posted on GitHub.  JobBook Utilizes MySQL, JavaScript, Handlebars, Materialize, MVC modeling, and server side API calls.",
+        "description": "GitJobs is a place where software developers can easily find and apply for exciting new jobs posted on GitHub.  GitJobs utilizes MySQL, JavaScript, Handlebars, Materialize, MVC modeling, and server side API calls.",
         "github": "https://github.com/wilpar4813/JobBook",
-        "datatip": "The JobBook is a place where software developers <br> can easily find and apply for exciting new jobs <br>posted on GitHub.  JobBook Utilizes MySQL, JavaScript, <br>Handlebars, Materialize, MVC modeling, and <br>server side API calls."
+        "datatip": "GitJobs is a place where software developers <br> can easily find and apply for exciting new jobs <br>posted on GitHub.  GitJobs Utilizes MySQL, JavaScript, <br>Handlebars, Materialize, MVC modeling, and <br>server side API calls."
     },
     {
         "id": 2,
@@ -40,13 +40,13 @@
         "datatip": "As an active person, the need to know the weather is a big <br>deal. Use this weather dashboard to search cities for current <br>weather conditions and the future weather outlook for <br>multiple cities. This app utilizes HTML, CSS, and Javascript."
     }, {
         "id": 5,
-        "name": "Music Plus",
-        "image": "./images/musicPlus.png",
-        "project": "A Weather Tracking App",
+        "name": "SnapTrax",
+        "image": "./images/musicBrief3.png",
+        "project": "Search Music Clips and Lyrics",
         "location": "https://wilpar4813.github.io/musicPlus/",
         "description": "Search, play, and create playlists of favorites songs!",
         "github": "https://github.com/wilpar4813/musicPlus",
-        "datatip": "As a music lover, you want the most <br>simple way to build and<br>save your favorite playlists. MusicPlus<br>is a place where you can do just that.<br> Create Playlist! Search, play, and <br>sing along to posted lyrics of <br>your favorite musical artists. <br>This app uses a HTML, CSS, <br>JavaScript, and server-side API."
+        "datatip": "As a music lover, you want the most <br>simple way to build and<br>save your favorite playlists. MusicPlus<br>is a place where you can do just that.<br> Create Playlist! Search, play, and <br>sing along to posted lyrics of <br>your favorite musical artists. <br>This app uses a HTML, CSS, <br>JavaScript, Jquery, server-side API, and responsive web design."
     }, {
         "id": 6,
         "name": "Profile Generator",
