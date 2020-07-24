@@ -34,6 +34,7 @@ function Navbar() {
                 </div>
             </nav>
             <nav className="navbar navbar-expand-lg header navbar-fixed-top">
+            
                 <a className="navbar-brand" href="#">Tripp Parham</a>
                 <button className="navbar-toggler white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon">
@@ -78,6 +79,7 @@ function Navbar() {
                         </li>
                     </ul>
                 </div>
+                
             </nav>
             {/* <nav className="navbar navbar-expand-lg header">
                 <Link className="navbar-brand" to="/">

@@ -494,8 +494,9 @@ button:focus{
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 32px;
-    background-color: black;
+    height: auto;
+    background-color: #072e5c;
+    /* border-bottom: 3px solid #55561c; */
     color: white;
     text-align: center;
     border-top: 3px solid #51541d;
@@ -656,12 +657,7 @@ button:focus{
         margin-right:auto;
         width: 100%;
     }
-    h1{
-        font-size:30px !important;
-    }
-    h2{
-        font-size: 25px !important;
-    }
+   
     .contact-card {
         width: 90%;
         margin-left: auto;
@@ -676,24 +672,27 @@ button:focus{
 
 
 @media screen and (max-width: 580px) {
+    h1{
+        font-size:30px !important;
+    }
+    h2{
+        font-size: 25px !important;
+    }
     .navbar-nav > li {
         font-size: 20px;
     }
     .about-container{
-        margin-top:20px;
+        margin-top:0px;
     }
-    .about-container .title{
-        margin-bottom: 0px;
-        margin-top: 10px;
-    }
+   
     p{
-        font-size:18px;
+        font-size:19px;
     }
     .footer h5{
         font-size:12px !important;
     }
     .portfolio-container {
-        margin-top: 114px;
+        margin-top: 0px;
         text-align: center;
         border-radius: 0mm;
     }
@@ -704,8 +703,16 @@ button:focus{
     .contactTripp {
         font-size: 24px;
     }
+    
 }
 @media screen and (max-width: 440px) {
+    .profile{
+        padding: 20px;
+    }
+    .about-container .title{
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
     .icons > ul > li {
         color: white;
         font-size: 25px;
@@ -729,9 +736,7 @@ button:focus{
     h3 {
         font-size: 25px !important;
     }
-    .profile{
-        padding:25px;
-    }
+    
 
 }
 
