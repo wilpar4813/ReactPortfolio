@@ -628,6 +628,7 @@ button:focus{
 
 
 @media screen and (max-width: 800px) {
+    
     .navbar-brand{
         font-size: 40px !important;
     }
