@@ -671,8 +671,9 @@ hr {
         font-size:12px !important;
     }
     .portfolio-container {
-        margin-top: 175px;
+        margin-top: 114px;
         text-align: center;
+        border-radius: 0mm;
     }
     .contact-box{
         margin-top: 175px;
