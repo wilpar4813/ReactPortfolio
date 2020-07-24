@@ -5,6 +5,7 @@ body {
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+
 }
 html {
     margin-left: auto;
@@ -32,6 +33,7 @@ p {
     font-size: 28px;
     padding: 10px;
     padding-left: 0px;
+    font-family: 'Spartan', sans-serif;
 }
 /* 
 .title {
