@@ -28,7 +28,7 @@ function PortfolioCard(props) {
                 <a
                     href={props.location}
                     className="btn btn-primary text-block"
-                    data-toggle="popover"
+                    // data-toggle="popover"
                     title={props.description}
                     data-content={props.description}
                     target="_blank"

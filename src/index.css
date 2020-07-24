@@ -221,6 +221,12 @@ hr {
 
 }
 
+.btn-primary{
+    border-color:black !important;
+}
+button:focus{
+    outline: none !important;
+}
 .portfolio-container {
     margin-top: 200px;
     margin-bottom: 100px;
@@ -290,11 +296,13 @@ hr {
 }
 
 .navbar {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    padding-right: 0px !important;
+    /* max-width: 100%; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* display: flex; */
+    /* padding-right: 0px !important; */
+    
+    height:auto !important;
 }
 
 .navigation-bar {
@@ -307,7 +315,7 @@ hr {
     justify-content: left;
 }
 .navbar-nav > li {
-    font-size: 28px;
+    font-size: 25px;
 }
 
 .navbar-brand {
