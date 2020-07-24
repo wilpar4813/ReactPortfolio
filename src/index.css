@@ -187,6 +187,7 @@ hr {
     position: relative;
     height: 200px;
     width: 280px;
+    border: 5px solid black;
 }
 .text-block {
     position: absolute;
@@ -210,6 +211,7 @@ hr {
     width:30px;
     top: -2px;
     background-color:white; 
+    border-radius: 15px;
    
 }
 .gitButton .fab {
@@ -222,8 +224,8 @@ hr {
 .portfolio-container {
     margin-top: 200px;
     margin-bottom: 100px;
-    /* background-image: url("../src/assets/cork-board.png") !important; */
-    background-color: #cccccc !important;
+    background-image: url("../src/assets/cork-board.png") !important;
+    /* background-color: rgba(100, 135, 100, 0.8) !important; */
     overflow: hidden;
     text-align: center;
     border-radius: 25px;
@@ -240,10 +242,11 @@ hr {
     margin-top: 40px;
     text-align: center;
     color:white;
-    background-color: #51541d;
+    background-color: rgba(122, 107, 67, 0.8);
     /* width:40%; */
     border-radius: 25px;
     padding: 10px;
+    border:1px solid black;
 }
 
 
