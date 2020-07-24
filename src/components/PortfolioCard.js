@@ -16,8 +16,10 @@ function PortfolioCard(props) {
                 <div className="gitButton">
                     <a
                         href={props.github}
+                        target="_blank"
                         className="fab fa-github-square"
                         title="Code Repository"
+                        
                     >
                        
                     </a>
@@ -29,6 +31,7 @@ function PortfolioCard(props) {
                     data-toggle="popover"
                     title={props.description}
                     data-content={props.description}
+                    target="_blank"
                 >
                     {props.name}
                 </a>
