@@ -233,7 +233,7 @@ function ResumeCard() {
                             </h3>
                             <h5>The University of North Carolina</h5>
                             <h5>Department of Computer Scicence</h5>
-                            <h5>Raleigh, NC</h5>
+                            <h5>Chapel Hill, NC</h5>
                             <ul>
                                 <li>Graduated April 2020</li>
                                 <li>A+ Student</li>
